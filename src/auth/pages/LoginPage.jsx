@@ -15,7 +15,6 @@ const registerFormFields = {
 
 export const LoginPage = () => {
 
-
     const { loginEmail, loginPassword, onInputChange: onLoginInputChange } = useForm(loginFormFields);
 
     const {
