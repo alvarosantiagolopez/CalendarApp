@@ -7,6 +7,7 @@ export const AppRouter = () => {
 
     const authStatus = 'authenticated'; //'authenticated'; //'not-authenticated';
 
+
     return (
         <Routes>
             {
