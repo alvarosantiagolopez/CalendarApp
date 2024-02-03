@@ -8,7 +8,7 @@ export const events = [
     },
 
     {
-        id: '1',
+        id: '2',
         start: new Date('2024-11-26 13:00:00'),
         end: new Date('2024-11-26 15:00:00'),
         title: 'Cumpleaños de Alvaro',
