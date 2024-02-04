@@ -7,11 +7,10 @@ jest.mock("../../../src/hooks/useCalendarStore");
 
 describe('Pruebas en FabDelete', () => {
 
+    const mockStartDeletingEvent = jest.fn();
+    beforeEach(() => jest.clearAllMocks());
+
     test('debe de mostrar el componente correctamente ', () => {
-
-        const mockStartDeletingEvent = jest.fn();
-
-        beforeEach(() => jest.clearAllMocks());
 
         useCalendarStore.mockReturnValue({
             hasEventSelected: false
@@ -55,4 +54,4 @@ describe('Pruebas en FabDelete', () => {
         expect(mockStartDeletingEvent).toHaveBeenCalled();
     });
 
-})
+});
